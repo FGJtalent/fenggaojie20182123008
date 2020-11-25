@@ -1,0 +1,20 @@
+用例名称
+      Download Code			
+用例说明
+      Administrator和Forker可以下载GitHub中的code			
+参与者	
+      Administrator、Forker			
+元素
+      Open with GitHub Desktop和Download ZIP			
+
+关系
+      Administrator和Forker对于DownloadCode用例是关联关系
+      DownloadCode对于Open with GitHub Desktop以及Download ZIP是扩展关系			
+
+
+
+建模思路：	
+
+1.Administrator和Forker当登录GitHub之后可以对所搜索的文件进项Download code的功能的操作。
+
+2.在Download code的功能操作下，Administrator和Forker都有两种选择，一种是Open with GitHub Desktop，另一种是Download ZIP。故Open with GitHub Desktop和Download ZIP是DownloadCode的扩展（extend）的关系			
